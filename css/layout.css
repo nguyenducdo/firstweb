@@ -1,0 +1,367 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	/*box-sizing: border-box;*/
+}
+
+#container{
+	width: 1200px;
+	min-height: 100%;
+	margin: auto;
+	/*background-color: red;*/
+	margin-bottom: 100px;
+	margin-top: 20px;
+}
+
+a{
+	text-decoration: none;
+	border: hidden;
+}
+
+#header h1 {
+	display: inline-block;
+	height: 50px;
+}
+
+#login{
+	float: right;
+}
+
+/*==================menu====================*/
+
+#menu-header ul{
+	text-align: center;
+	list-style-type: none;
+	margin-top: 50px;
+}
+
+#menu-header ul li{
+	display: inline-table;
+	/*width: 120px;*/
+	margin: 0px 20px;
+	height: 40px;
+	line-height: 40px;
+	/*background-color: blue;*/
+
+}
+
+#menu-header ul li a{
+	color: #808080;
+	/*display: block;*/
+	font-size: 22px;
+}
+
+#menu-header ul li a:hover{
+	color: blue;
+}
+
+/******************menu*************************/
+
+/*================= Trang chinh =====================*/
+
+#content .theloai{
+	color: #808080;
+}
+
+#content .trangchinh{
+	padding-top: 60px;
+}
+
+#content .trangchinh .baidang{
+	display: block;
+	width: 1180px;
+	height: 230px;
+	margin: 20px 0px;
+	/*background-color: blue;*/
+	border: 0.5px solid #808080;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#content .trangchinh .baidang img.anh{
+	width: 330px;
+	height: 230px;
+	vertical-align: top;
+	float: left;
+	/*border: 1px solid #808080;*/
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+}
+
+#content .trangchinh .baidang .noidungbaiviet{
+	margin-left: 350px;
+}
+
+#content .trangchinh .baidang .noidungbaiviet div.mota{
+	display: block;
+	/*height: 50px;*/
+	word-wrap: break-word;
+	margin: 5px 0px;
+	text-indent: 20px;
+	text-transform: capitalize;
+	height: 110px;
+}
+
+#content .trangchinh .baidang .noidungbaiviet .tieude h3{
+	display: inline-block;
+	font-size: 22px;
+	margin:5px 0px;
+	color: black;
+}
+
+
+#content .trangchinh .baidang .noidungbaiviet .tacgia{
+	display: inline-block;
+	width: 300px;
+}
+
+#content .trangchinh .baidang .noidungbaiviet .tacgia .hoten{
+	font-weight: bold;
+}
+
+#content .trangchinh .baidang .noidungbaiviet .tacgia .ngaydang{
+	color: #808080;
+}
+
+#content .trangchinh .baidang .noidungbaiviet .tacgia .daidien img{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	float: left;
+	margin-right: 5px;
+	
+}
+
+#content .trangchinh .baidang .noidungbaiviet .luotxem{
+	margin-right: 10px;
+	float: right;
+	text-align: right;
+}
+
+
+/**************************Trang chinh****************************/
+
+
+/*=========================Tim kiem=========================*/
+
+#content .timkiem{
+	display: inline-block;
+	float: right;
+}
+
+
+#content .timkiem .icon_search_web{
+	border:none;background: url("../img/icon_search_web.gif") no-repeat scroll left top transparent;
+	border-bottom: 1px solid #C0C0C0;
+	border-right: 1px solid #C0C0C0;
+	border-top: 1px solid #C0C0C0;
+	cursor: pointer;
+	float: left;
+	height: 22px;
+	width: 20px;
+	margin-left:-2px
+}
+#content .timkiem .txt_input{
+	background: none repeat scroll 0 0 #FFFFFF;
+	float: left;
+	height: 20px;
+	padding: 0 5px 0 4px;
+	width: 165px;
+	border-bottom: 1px solid #C0C0C0;
+	border-left: 1px solid #C0C0C0;
+	border-top: 1px solid #C0C0C0;
+	float:left
+}
+
+#content .timkiem select{
+	height: 22px;
+	margin-left: 10px;
+	width: 100px;
+	text-align: center;
+}
+
+
+/**************************Tim kiem**************************/
+
+
+/*========================Trang tin===========================*/
+
+#content .trangtin #tacgia{
+	display: block;
+	height: 100px;
+	margin: 100px 100px 30px 100px;
+}
+
+#content .trangtin #tacgia #hoten{
+	font-weight: bold;
+	font-size: 21px;
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+#content .trangtin #tacgia #ngaydang{
+	color: #808080;
+	display: inline-block;
+}
+
+#content .trangtin #tacgia #daidien img{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	float: left;
+	margin-right: 20px;
+	
+}
+
+#content .trangtin hr{
+	margin: auto;
+}
+
+#content .trangtin .luotxem{
+	margin-right: 10px;
+	float: right;
+	/*text-align: right;*/
+	margin-top: 20px;
+}
+
+#content .trangtin table{
+	margin: 10px auto 10px auto;
+}
+
+#content .trangtin table td.Image{
+	white-space: nowrap;
+}
+
+#content .trangtin .chitietbaiviet{
+	word-wrap: break-word;
+	text-transform: capitalize;
+	margin: 30px 20px 10px 20px;
+}
+
+#content .trangtin .chitietbaiviet #tieude{
+	font-weight: bold;
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#content .trangtin .chitietbaiviet #tomtat{
+	text-indent: 20px;
+	margin-bottom: 10px;
+	color: #808080;
+	font-weight: bold;
+}
+
+#content .trangtin .chitietbaiviet #noidung{
+	width: 1200px;
+	text-indent: 20px;
+	margin-bottom: 50px;
+	word-wrap: break-word;
+}
+
+#content .trangtin .binhluan{
+	display: inline-block;
+	width: 800px;
+	margin-top: 50px;
+}
+
+#content .trangtin .binhluan input[type=button]{
+	font-size: 15px;
+	/*border: none;*/
+	/*background-color: green;*/
+}
+
+#content .trangtin .binhluan label{
+	margin-right: 40px;
+	color: red;
+}
+
+#content .trangtin .binhluan .submitform{
+}
+
+#content .trangtin .binhluan .submitform table{
+	border-right: 1px solid #808080;
+	margin: 0px;
+	width: 800px;
+}
+
+#content .trangtin .binhluan .submitform textarea{
+	width: 680px;
+	resize: none;
+	height: 130px;
+	display: block;
+	border: 1px solid #808080;
+	padding: 10px;
+}
+
+#content .trangtin .binhluan .submitform input[type=submit]{
+	width: 150px;
+	height: 40px;
+	float: right;
+	margin-right: 92px;
+}
+
+#content .trangtin .binhluan .binhluantruoc .motbinhluan{
+	margin-bottom: 50px;
+}
+
+#content .trangtin .binhluan .binhluantruoc .motbinhluan .tacgia .hoten{
+	font-weight: bold;
+}
+
+#content .trangtin .binhluan .binhluantruoc .motbinhluan .tacgia .daidien img{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	float: left;
+	margin-right: 8px;
+	
+}
+
+#content .trangtin .tinkhac{
+	width: 400px;
+	display: inline-block;
+	float: right;
+	margin-top: 115px;
+}
+
+#content .trangtin .tinkhac table{
+	width: 400px;
+	margin: 0px;
+	padding-left: 40px;
+}
+
+#content .trangtin .tinkhac table td{
+	font-size: 18px;
+	padding-bottom: 30px;
+	padding-top: 10px;
+	border-bottom: 1px solid #808080;
+}
+
+#content .trangtin .tinkhac table td div.tieude{
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+#content .trangtin .tinkhac table td div a{
+	color: black;
+}
+
+#content .trangtin .tinkhac table td div.mota{
+	word-wrap: break-word;
+	margin-top: 15px;
+}
+
+
+#content .trangtin .tinkhac table td div img{
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+	float: left;
+}
+
+
+/*************************Trang tin****************************/

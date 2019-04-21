@@ -1,0 +1,109 @@
+#content .other .danhsach{
+	padding-top: 60px;
+}
+
+#content .other .danhsach{
+	width: 1000px;
+	margin: auto;
+}
+
+#content .other .danhsach .baidang{
+	display: block;
+	width: 1000px;
+	height: 200px;
+	margin: 20px 0px;
+	/*background-color: blue;*/
+	border: 0.5px solid #808080;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#content .other .danhsach .baidang img.anh{
+	width: 250px;
+	height: 200px;
+	vertical-align: top;
+	float: left;
+	/*border: 1px solid #808080;*/
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+}
+
+#content .other .danhsach .baidang .noidungbaiviet{
+	margin-left: 270px;
+}
+
+#content .other .danhsach .baidang .noidungbaiviet div.mota{
+	display: block;
+	/*height: 50px;*/
+	word-wrap: break-word;
+	margin: 5px 0px;
+	text-indent: 20px;
+	text-transform: capitalize;
+	height: 80px;
+}
+
+#content .other .danhsach .baidang .noidungbaiviet .tieude h3{
+	display: inline-block;
+	font-size: 22px;
+	margin:5px 0px;
+}
+
+
+#content .other .danhsach .baidang .noidungbaiviet .tacgia{
+	display: inline-block;
+	width: 300px;
+}
+
+#content .other .danhsach .baidang .noidungbaiviet .tacgia .hoten{
+	font-weight: bold;
+}
+
+#content .other .danhsach .baidang .noidungbaiviet .tacgia .ngaydang{
+	color: #808080;
+}
+
+#content .other .danhsach .baidang .noidungbaiviet .tacgia .daidien img{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	float: left;
+	margin-right: 5px;
+	
+}
+
+#content .other .danhsach .baidang .noidungbaiviet .luotxem{
+	margin-right: 10px;
+	float: right;
+	text-align: right;
+}
+
+
+#content .other #menu ul{
+	text-align: center;
+	list-style-type: none;
+	margin: auto;
+	margin-top: 100px;
+	border-top: 1px solid #808080;
+	border-bottom: 1px solid #808080;
+	width: 1100px;
+	padding: 10px 0px;
+}
+
+#content .other #menu ul li{
+	display: inline-table;
+	margin: 0px 20px;
+	
+
+}
+
+#content .other #menu ul li a{
+	color: #808080;
+	/*display: block;*/
+	font-size: 21px;
+}
+
+#content .other #menu ul li a:hover{
+	color: blue;
+}

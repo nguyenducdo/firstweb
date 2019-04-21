@@ -1,0 +1,79 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	/*box-sizing: border-box;*/
+}
+
+#container{
+	width: 1200px;
+	min-height: 100%;
+	margin: auto;
+	/*background-color: red;*/
+	margin-bottom: 100px;
+	margin-top: 20px;
+}
+
+a{
+	text-decoration: none;
+	border: hidden;
+}
+
+#header h1 {
+	display: inline-block;
+	height: 50px;
+}
+
+#login{
+	float: right;
+}
+
+/*          Them bai viet              */
+
+#them {
+	width: 1000px;
+	margin: auto;
+	margin-top: 50px;
+	font-size: 19px;
+	background-color: #efdfac;
+	padding-top: 30px;
+}
+
+#them table{
+	width: 900px;
+	margin: auto;
+}
+
+#them table tr td{
+	padding: 10px;
+	padding-bottom: 20px;
+}
+
+#them table input[type=text]{
+	width: 480px;
+	font-size: 17px;
+	padding: 5px 5px 5px 10px;
+}
+
+#them table .mota{
+	width: 700px;
+	height: 200px;
+	font-size: 16px;
+	padding: 5px;
+}
+
+#them select{
+	width: 200px;
+	font-size: 17px;
+	padding: 5px;
+}
+
+#them table input[type=submit]{
+	font-size: 17px;
+	padding: 5px 10px;
+}
+
+#them table input[type=file]{
+	font-size: 14px;
+	padding: 5px 0px;
+}
+/*    ///      Them bai viet      ///      */
